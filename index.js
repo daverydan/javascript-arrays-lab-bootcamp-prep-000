@@ -28,11 +28,16 @@ function prependKitten(cat) {
   return addKitten
 }
 
-function removeLastKitten() {
+// function removeLastKitten() {
   // const removeKitten = kittens.pop()
-  kittens.slice(-1)
+  // kittens.slice(-1)
   // var removeKitten = kittens.slice(0, kittens.length, - 1)
   // iceCreams.slice(0, iceCreams.length - 1)
   // return kittens.slice(0, kittens.length, - 1)
+//   return kittens
+// }
+
+function removeLastKitten() {
+  kittens.splice(2,1)
   return kittens
 }
