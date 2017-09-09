@@ -22,3 +22,8 @@ function appendKitten(cat) {
   const addKitten = [...kittens, cat]
   return addKitten
 }
+
+function prependKitten(cat) {
+  const addKitten = [cat, ...kittens]
+  return addKitten
+}
